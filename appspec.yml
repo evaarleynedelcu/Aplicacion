@@ -1,0 +1,8 @@
+---
+applications:
+- host: simple-website-a3sd46sd
+- name: simple-website-a3sd46sd
+  buildpack: https://github.com/evaarleynedelcu/Aplicacion.git
+  memory: 256M
+  env:
+    GOVERSION: go1.12
